@@ -7,7 +7,7 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>next app/</title>
+        <title>template-nextjs-typescript/</title>
       </Head>
 
       <main>

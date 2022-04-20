@@ -1,7 +1,11 @@
 import { globalCss } from '@stitches/react'
 
-export const globalStyles = globalCss({
-  body: {
-    margin: '0'
+const resetCSS = {
+  '*': {
+    boxSizing: 'border-box',
+    margin: '0',
+    padding: '0'
   }
-})
+}
+
+export const globalStyles = globalCss(resetCSS)
