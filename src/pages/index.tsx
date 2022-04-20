@@ -1,6 +1,8 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 
+import { Button } from '../components'
+
 const Home: NextPage = () => {
   return (
     <div>
@@ -9,7 +11,14 @@ const Home: NextPage = () => {
       </Head>
 
       <main>
-        <h1>main/</h1>
+        <Button variant="primary" onClick={() => alert('teste')}>
+          button primary
+        </Button>
+        <hr />
+        <Button variant="secondary">button secondary</Button>
+        <hr />
+        <Button isFullWidth>button isFullWidth</Button>
+        <hr />
       </main>
     </div>
   )
