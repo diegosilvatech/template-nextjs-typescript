@@ -1,4 +1,4 @@
-import { styled, css, CSS } from '../../../stitches.config'
+import { styled, css, CSS } from 'styles/stitches/stitches.config'
 
 const baseCSS: CSS = {
   border: '2px solid transparent',
